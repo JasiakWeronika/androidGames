@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Game</string>
+    <string-array name="words">
+        <item>PIES</item>
+        <item>KACZKA</item>
+        <item>NÓŻ</item>
+        <item>AGRAFKA</item>
+        <item>OBRAZ</item>
+        <item>ŹREBIE</item>
+        <item>STÓŁ</item>
+        <item>KRZESŁO</item>
+        <item>DRZWI</item>
+        <item>DŁUGOPIS</item>
+        <item>KOT</item>
+        <item>PŁOT</item>
+        <item>DOM</item>
+        <item>ŻYRAFA</item>
+        <item>ŻMIJA</item>
+        <item>RÓŻA</item>
+        <item>KROWA</item>
+        <item>FILM</item>
+        <item>KUBEK</item>
+        <item>FOTEL</item>
+        <item>SCHODY</item>
+        <item>ROWER</item>
+        <item>AUTO</item>
+        <item>BLUZA</item>
+    </string-array>
+</resources>

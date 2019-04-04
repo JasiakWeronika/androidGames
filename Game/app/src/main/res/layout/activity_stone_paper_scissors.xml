@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:weightSum="10"
+>
+    <include android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             layout="@layout/information_stone_paper_scissors"
+             android:id="@+id/include4"
+             android:layout_weight="1"
+    />
+    <include android:layout_width="match_parent"
+             android:layout_height="0dp"
+             layout="@layout/images_stone_paper_scissors"
+             android:id="@+id/include3"
+             android:layout_weight="8"
+    />
+    <include android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             layout="@layout/buttons_stone_paper_scissors"
+             android:id="@+id/include"
+             android:layout_weight="1"
+    />
+</LinearLayout>

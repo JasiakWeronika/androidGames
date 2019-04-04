@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:weightSum="3">
+    <TextView
+            android:text="ZABIJ CZAS"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/title"
+            android:layout_weight="2"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:gravity="center"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal">
+        <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+        <Button
+                android:text="Kamień Papier Nożyce"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/stonePaperScissors"
+                android:textSize="18sp"
+                android:onClick="stonePaperScissorsGame"/>
+        <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+        <Button
+                android:text="Kółko i krzyżyk"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/ticTacToe"
+                android:textSize="18sp" android:onClick="ticTacToeGame"/>
+        <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+        <Button
+                android:text="Wisielec"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/hangman"
+                android:textSize="18sp" android:onClick="hangmanGame"/>
+    </LinearLayout>
+</LinearLayout>
